@@ -169,7 +169,6 @@ section h2 {
     color: #e63946;
 }
 
-/* ===== PHOTO ===== */
 .header-photo {
     position: relative;
     width: 280px;
@@ -208,7 +207,6 @@ section h2 {
     z-index: 2;
 }
 
-/* ===== A PROPOS ===== */
 #about {
     background-color: white;
 }
@@ -220,7 +218,6 @@ section h2 {
     color: #555;
 }
 
-/* ===== COMPETENCES ===== */
 #skills {
     background-color: #f0f0f0;
 }
@@ -286,7 +283,6 @@ section h2 {
     font-size: 13px;
 }
 
-/* ===== FORMATION ===== */
 #formation {
     background-color: white;
 }
@@ -332,7 +328,6 @@ section h2 {
     display: none;
 }
 
-/* ===== PROJETS ===== */
 #projects {
     background-color: #f0f0f0;
 }
@@ -391,7 +386,6 @@ section h2 {
     font-weight: 600;
 }
 
-/* ===== CONTACT ===== */
 #contact {
     background-color: white;
 }
@@ -452,7 +446,6 @@ section h2 {
     font-weight: 600;
 }
 
-/* ===== FOOTER ===== */
 footer {
     text-align: center;
     padding: 24px;
@@ -461,7 +454,6 @@ footer {
     font-size: 13px;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     body {
         margin-left: 0;
