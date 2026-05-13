@@ -14,6 +14,8 @@ Niveau : DEUG Informatique — MI | FSSM, Marrakech
 - **GitHub Pages** — Dépôt public, URL accessible, README documenté
 
 ## Structure du projet
+
+```
 rania1289.github.io/
     index.html              → Structure de la page
     style.css               → Design et mise en forme
@@ -23,6 +25,7 @@ rania1289.github.io/
     
     react-components/
         app.js          → Composants React
+```
 
 ## Fonctionnalités
 - Navbar verticale fixe avec scroll doux
