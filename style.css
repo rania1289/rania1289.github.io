@@ -463,32 +463,65 @@ footer {
         width: 100%;
         height: auto;
         position: relative;
-        flex-direction: row;
-        padding: 10px 0;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #navbar .nav-logo {
+        padding: 0 16px 20px 16px;
+        text-align: center;
     }
 
     #navbar ul {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #navbar ul li a {
+        padding: 10px 14px;
+        font-size: 12px;
+        border-left: none !important;
+    }
+
+    #navbar a.active {
+        border-left: none !important;
+        border-bottom: 2px solid #e63946;
     }
 
     #header {
         flex-direction: column;
         min-height: auto;
         padding: 40px 6%;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 26px;
+    }
+
+    .header-text .titre-anime {
+        font-size: 20px;
     }
 
     .header-photo {
         width: 200px;
         height: 230px;
+        margin: 0 auto;
     }
 
     .header-contacts {
+        justify-content: center;
         flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 
     section {
         padding: 40px 6%;
+    }
+
+    .skills-container {
+        flex-direction: column;
     }
 }
